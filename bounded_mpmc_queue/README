@@ -1,0 +1,10 @@
+C implementation of Dmitry Vyukov's bounded multi-producer multi-consumer queue
+using gcc atomic builtins.
+
+The mpmc_queue_generic.h is a single header file which can be used when you need
+type specific queue implementation using the MPMC_QUEUE_DECLARE(prefix, type) macro.
+One example of how to use it would be the int_mpmc_queue.c and int_mpmc_queue.h
+files for a queue of ints. The apis are documented in the header file. [-std=c99].
+
+Ref: https://www.1024cores.net/home/lock-free-algorithms/queues/bounded-mpmc-queue
+

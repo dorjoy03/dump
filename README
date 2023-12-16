@@ -1,0 +1,5 @@
+Dumping ground for reusable stuff and things I will be trying out etc. This
+README will be a list of the stuff inside.
+
+1. bounded_mpmc_queue: C implementation of bounded multi-producer multi-consumer
+queue using gcc atomic builtins.
