@@ -1,0 +1,6 @@
+MD5 Message-Digest algorithm implementation in C. The code is mostly similar to
+the implementation in rfc 1321 with some changes of my own.
+Ref: https://www.rfc-editor.org/rfc/rfc1321.txt
+
+Compile: gcc -Wall -Wextra -Werror -std=c99 -O2 md5.c md5_test.c -o md5_test
+
